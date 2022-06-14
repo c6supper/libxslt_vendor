@@ -1,0 +1,15 @@
+--- Makefile.bkp	2021-01-21 14:17:35.937897494 -0500
++++ Makefile	2021-01-21 14:18:27.906717963 -0500
+@@ -417,11 +417,10 @@
+ 	libxslt \
+ 	libexslt \
+ 	xsltproc \
+-	doc \
+ 	$(PYTHON_SUBDIR) \
+ 	tests
+ 
+-DIST_SUBDIRS = libxslt libexslt xsltproc python doc tests
++DIST_SUBDIRS = libxslt libexslt xsltproc python tests
+ confexecdir = $(libdir)
+ confexec_DATA = xsltConf.sh
+ bin_SCRIPTS = xslt-config
